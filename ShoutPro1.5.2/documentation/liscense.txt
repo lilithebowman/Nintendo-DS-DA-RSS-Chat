@@ -1,0 +1,22 @@
+ShoutPro is licensed under the Creative Commons Attribution-ShareAlike 2.5 License. A summary of this license is below.  To view a copy of this license, visit http://creativecommons.org/licenses/by-sa/2.5/ or send a letter to Creative Commons, 543 Howard Street, 5th Floor, San Francisco, California, 94105, USA.
+
+CREATIVE COMMONS DEED
+
+Attribution-ShareAlike 2.5
+
+You are free:
+
+    * to copy, distribute, display, and perform the work
+    * to make derivative works
+    * to make commercial use of the work
+
+Under the following conditions:
+Attribution. You must attribute the work in the manner specified by the author or licensor.
+Share Alike. If you alter, transform, or build upon this work, you may distribute the resulting work only under a license identical to this one.
+
+    * For any reuse or distribution, you must make clear to others the license terms of this work.
+    * Any of these conditions can be waived if you get permission from the copyright holder.
+
+Your fair use and other rights are in no way affected by the above.
+
+This is a human-readable summary of the Legal Code (the full license), viewable at http://creativecommons.org/licenses/by-sa/2.5/legalcode

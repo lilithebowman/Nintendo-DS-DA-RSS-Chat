@@ -1,0 +1,56 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+
+<!-- Begin Link Styles -->
+<style type="text/css">
+ a:link{color:#555555;text-decoration:none;font-weight: bold;} a:visited{color:#555555;text-decoration:none;font-weight: bold;} a:active{color:#555555;text-decoration:none;font-weight: bold;} a:hover{color:#999999;text-decoration:underline;font-weight: bold;}
+ td{font-size:10pt}
+</style>
+<!-- End Link Styles -->
+
+<title>ShoutPro - Customizing</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+</head>
+
+<body text="#000000" bgcolor="#FFFFFF">
+<div align="center"><a href="index.html"><img src="shoutpro.jpg" border="0"></a></div>
+<font face="Tahoma">
+</font>
+<div style="font-size:20pt"><font face="Tahoma">ShoutPro 1.5.2 - Customizing</font></div>
+<div style="font-size:10pt">
+<p> <font face="Tahoma"><b>How to Do Some Simple Tasks with ShoutPro:</b> 
+    </font>
+  <ul>
+    <li><font face="Tahoma"><strong>View the Details of a Shout:</strong> In the shouts.php file, each shout is on a new line. 
+        The various elements of a shout are stored on each line. Poster's name, 
+    message, date, time, and IP are each separated by |^|. You can delete a shout by removing its line from the file, and you can edit a shout by changing the values in this file. Please note that all formatting, including the profanity filter, is applied when the shout is displayed and those formatting changes are not saved to the shouts.php file. </font></li>
+    <li><font face="Tahoma"><strong>Ban a user from the Shoutbox: </strong>To ban a user from the 
+      shoutbox, first find his or her IP by looking in shouts.php as shown below. Then simply add 
+      the IP to the file &quot;lists\bannedips.php&quot;. Each IP should be on a new line, 
+      starting on the second line.</font></li>
+    <li><font face="Tahoma"><b>Clear the Shoutbox:</b> In your web browser, open 
+      the file "admin.php" in your ShoutPro folder. Enter the password 
+      you typed into "config.php" and hit submit. A message should appear saying 
+    the shoutbox has been cleared.</font></li>
+    <li><font face="Tahoma"><b>Add More Smilies:</b> Begin by uploading the smilie 
+      image file into the "smilies" folder. Then open up "lists/smilies.php" in the 
+      "lists" folder in a text-editing program. You can add or remove smilies 
+      here. Make sure you follow this format: "SMILIECODE|^|IMAGEFILE|^|". Each 
+      unit like that should be on a separate line.</font></li>
+    <li><font face="Tahoma"><strong>Add or Edit Restricted Names: </strong>Open the 
+      file &quot;lists/names.php&quot; in a text-editing program. Each restricted 
+      name and encrypted password will be on its own line, in the format: &quot;NAME|^|ENCRYPTED PASSWORD|^|EMAIL|^|&quot;. You must use the User Panel to add new names. To delete a registered name, completely remove its line from the file. <strong>For security reasons, DO NOT edit the first line of the file. </strong> </font></li>
+    <li><font face="Tahoma"><b>Edit the Profanity Filter:</b> Open 
+      the file "lists/profanities.php" in a text-editing 
+      program. This file is in the same format as the smiles.php file. The first item is the profanity and the second 
+      item is the filtered word.</font></li>
+    <li><font face="Tahoma"><b>Add or Edit ShoutCode Tags:</b> Open 
+      the file "lists/shoutcode.php" in a text-editing 
+      program. This file is in a similar format to the smiles.php and profanities.php files. Each line is in the form </font><font face="Tahoma">&quot;OPENING TAG SHOUTCODE |^|OPENING TAG HTML|^|CLOSING TAG SHOUTCODE |^|CLOSING TAG HTML|^|&quot; If you have a ShoutCode tag with no closing tag, simply leave the last two values on the line blank. Use the existing entries in the file as examples.</font></li>
+    <li><strong><font face="Tahoma">Change How ShoutPro Looks: </font></strong><font face="Tahoma">General style information for your shoutbox is stored in cascading style sheet (CSS) theme files located in the &quot;themes&quot; folder. By default, ShoutPro includes two themes, the default &quot;Chrome&quot; theme, and the older blue theme. Edit the $theme variable in config.php to select yor theme. New themes will be posted on ShoutPro.com. </font></li>
+  </ul>
+</div>
+
+</body>
+</html>

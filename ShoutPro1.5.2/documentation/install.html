@@ -1,0 +1,78 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+
+<!-- Begin Link Styles -->
+<style type="text/css">
+ a:link{color:#555555;text-decoration:none;font-weight: bold;} a:visited{color:#555555;text-decoration:none;font-weight: bold;} a:active{color:#555555;text-decoration:none;font-weight: bold;} a:hover{color:#999999;text-decoration:underline;font-weight: bold;}
+ td{font-size:10pt}
+ body,ul,ol,li {font-family:Tahoma;}
+</style>
+<!-- End Link Styles -->
+
+<title>ShoutPro - Installation</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+</head>
+
+<body text="#000000" bgcolor="#FFFFFF">
+<div align="center"><a href="index.html"><img src="shoutpro.jpg" border="0"></a></div>
+
+<div style="font-size:20pt">ShoutPro 1.5.2 - Installation Instructions</div>
+<div style="font-size:10pt">
+<p><b>Installation Instructions:</b> </p>
+
+  <ol>
+    <li><strong>Download the script.</strong>
+		<ul><li>If you're reading this, you're already one-fifth of the way there!</li></ul></li>
+    <li><strong>Edit two config files.</strong>
+		<ul><li>Open up the file "config.php" in a text-editing program 
+      and configure all of the settings to your liking. Each setting has a description 
+      of how it should be set and what it is.</li>
+		  <li>Styles for ShoutPro are stored in CSS files in the &quot;themes/&quot; folder. You can specify which theme file you want to use in config.php. If you know CSS, you can edit &quot;default.css&quot; or the other themes included to customize the look of your shoutbox. </li>
+	  </ul>
+    </li>
+    <li><strong>Upload to your web server.</strong>
+      <ul>
+        <li>Open up your favorite FTP client, connect to your web site, and create a folder for your new shoutbox. </li>
+        <li>Upload all of the files and folders found in this 
+        zip to the folder you just created.</li>
+      </ul>
+    </li>
+    <li><strong>Set a few file permissions. </strong>
+      <ul>
+	  	<li>If your web server is not running a variation of Unix or Linux, skip this step.</li>
+		<li>chmod-ing is a process that allows ShoutPro to edit the files in its directory.  If you do not know how to chmod, try right clicking on a file on your web site through your FTP program.  Look for "Permissions", "Attributes", "Properties", or something like that.  If you see a window pop up with three rows of checkboxes (for Read, Write, and Execute) as well as three columns (for Owner / User, Group, and World / Public), then you're set.</li>
+        <li>chmod the shoutbox folder 777 (make it readable, writable, 
+          and executable by everyone).</li>
+        <li>chmod the folder &quot;lists&quot; inside the shoutbox folder 777 
+          (make it readable, writable, and executable by everyone).</li>
+        <li>chmod the file "lists/names.php" 
+          666 (make it readable and writable by everyone). If problems arise chmod it 777 
+          instead.</li>
+        <li>chmod the file "shouts.php" 666 (make it readable 
+          and writable by everyone). If problems arise chmod it 777 instead.</li>
+      </ul>
+    </li>
+    <li><strong>You're done! Shout! </strong>
+      <ul>
+        <li>Open the file "shoutbox.php" in your browser. Try 
+          posting a few messages and see if it works. If it doesn't, make sure all of your permissions from step 4 were done correctly, and that your web server supports PHP. </li>
+        <li>To put your new shoutbox on your site, just create 
+          an IFRAME with it. Here is a sample IFRAME code:           </li>
+  <blockquote>
+    <p> &lt;IFRAME frameborder="0" width="150" height="300" 
+      src="shoutpro/shoutbox.php"&gt;&lt;/IFRAME&gt;<br>
+		Make sure the "src" attribute is pointing to the 
+      correct file and the width is what you specified in the configuration 
+      file.</p>
+	</blockquote>
+      <li>That's it! ShoutPro should now be working correctly. 
+        If you have any questions just post on our <a href="http://www.shoutpro.com/boards/" target="_blank">message 
+          boards.</a></li>
+    </ul></li></ol>
+
+
+  </div>
+
+</body>
+</html>

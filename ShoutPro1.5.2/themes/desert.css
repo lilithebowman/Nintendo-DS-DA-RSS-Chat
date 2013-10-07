@@ -1,0 +1,88 @@
+/*
+ShoutPro 1.5 - desert.css
+ShoutPro is licensed under the Creative Commons Attribution-ShareAlike 2.5 License. For more information see the file LICENSE.TXT in the documentation folder included with this distribution, or see http://creativecommons.org/licenses/by-sa/2.5/.  
+
+This file is desert.css.  It is ShoutPro's "desert" theme, which is being included in this beta release as a special thank you for testing ShoutPro 1.5.
+*/
+
+body {
+	/*These control the custom scrollbars for Internet Explorer only.  To disable, just delete the values.*/
+	scrollbar-face-color: #9A6849;
+	scrollbar-arrow-color: #AB795A;
+	scrollbar-track-color: #BC8A6B;
+	scrollbar-shadow-color: #BC8A6B;
+	scrollbar-highlight-color: #BC8A6B;
+	scrollbar-3dlight-color: #BC8A6B;
+	scrollbar-darkshadow-Color: #BC8A6B;
+	
+	/*These are the basic settings for controlling how your shoutbox looks.*/
+	background-color: #BC8A6B; /*The background color of the shoutbox.  Default is #00538C.*/
+	margin: 2px 0px 2px 0px; /*Margins for the top, right, bottom and left of the shoutbox respectively. Default is 2px 0px 2px 0px.*/
+	color: #000000; /*The main text color.  Default is #DDDDCC.*/
+	font-size: 10pt;  /*Text size in points.  Default is 10pt.*/
+	font-family: Tahoma; /*The font used.  Default is Tahoma.*/
+}
+
+/*Link Styles */
+
+a:link{
+	color: #000000;
+	text-decoration: none;
+	font-weight: bold;
+}
+
+a:visited{
+	color: #000000;
+	text-decoration: none;
+	font-weight: bold;
+}
+
+a:hover{
+	color: #000000;
+	text-decoration: underline;
+	font-weight: bold;
+}
+
+a:active{
+	color: #000000;
+	text-decoration: none;
+	font-weight: bold;
+}
+
+.textbox {
+	/*CSS code for the textbox style.  If you want a default style textbox then delete the values below.*/
+	font-family: Tahoma;
+	font-size: 10pt;
+	border: 1px solid #000000;
+	background-color: #9B694B;
+	color:#000000;
+	text-align:center;
+}
+
+#name, #pass, #shout {
+	width: 150px;
+}
+
+#buttons {
+	width: 150px;
+	text-align: center;
+}
+
+.name {
+	color: #000000; /*The color users' names appear in when they have no special name color defined.  Default is #FF0000.*/
+	font-weight: bold;
+}
+
+#bottomlinks { /*The "View All", "Help", "Open User Panel", etc links below the shout display.*/
+	text-align:center;
+}
+
+/*The following values control the background colors of the alternating shout display rows.  To disable alternate row coloring, set both values to the same color.*/
+#row-one {background-color: #9B694B;}
+#row-two {background-color: #BC8A6B;}
+
+.copyrighttext {
+	/*Styling for the copyright text at the bottom of every window.  Editing this so the copyright is not visible will violate your right to use ShoutPro!*/
+	font-size: 7pt;
+	text-align: center;
+}
